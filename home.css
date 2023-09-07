@@ -1,0 +1,54 @@
+body {
+    background-color: #282828;
+    color: #ffffff; /* Set text color to white */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px; /* Set a larger font size */
+}
+
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #1f1f1f;
+}
+
+.menu-item {
+    padding: 10px;
+}
+
+.menu-item a {
+    color: #33ff33;
+    text-decoration: none;
+}
+
+.menu-item a:hover {
+    text-decoration: underline;
+}
+
+/* ... (rest of your CSS file) */
+
+main {
+    padding: 20px;
+}
+/* ...other parts of your CSS file */
+
+.experience {
+    display: flex;
+    align-items: start;
+    margin-bottom: 20px;
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.experience pre {
+    flex: 1;
+    margin: 0;
+}
+
+.experience-photo {
+    max-width: 300px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
