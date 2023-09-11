@@ -3,21 +3,18 @@ body {
     color: #ffffff; /* Set text color to white */
     font-family: 'Courier New', Courier, monospace;
     font-size: 18px; /* Set a larger font size */
-    margin: 0; /* Remove default margin */
 }
+
 
 .menu {
     display: flex;
     justify-content: space-between;
     padding: 20px;
     background-color: #1f1f1f;
-    flex-wrap: wrap; /* Allow menu items to wrap to the next line on smaller screens */
 }
 
 .menu-item {
     padding: 10px;
-    flex: 1; /* Allow menu items to grow and take up equal space */
-    text-align: center; /* Center text within each menu item */
 }
 
 .menu-item a {
@@ -29,9 +26,11 @@ body {
     text-decoration: underline;
 }
 
+
 main {
     padding: 20px;
 }
+
 
 .experience {
     display: flex;
@@ -40,7 +39,6 @@ main {
     background-color: #1f1f1f;
     padding: 20px;
     border-radius: 10px;
-    flex-direction: column; /* Stack elements vertically on small screens */
 }
 
 .experience pre {
@@ -51,27 +49,7 @@ main {
 .experience-photo {
     max-width: 300px;
     margin-left: 20px;
-    margin-top: 20px; /* Add top margin on small screens */
     border-radius: 10px;
-}
-
-/* Mobile styles */
-@media (max-width: 600px) {
-    .menu {
-        flex-direction: column; /* Stack menu items vertically on small screens */
-    }
-
-    .menu-item {
-        margin-bottom: 10px; /* Add bottom margin between stacked items */
-    }
-
-    .experience {
-        flex-direction: column; /* Stack elements vertically on all screens */
-    }
-
-    .experience-photo {
-        margin-left: 0; /* Remove left margin on small screens */
-    }
 }
 
 
