@@ -9,7 +9,7 @@ for (let i = 0; i < 50; i++) {
 }
 
 // Countdown logic
-let countdownNumber = 10;
+let countdownNumber = 5;
 const countdownEl = document.getElementById('countdown');
 
 const interval = setInterval(() => {
