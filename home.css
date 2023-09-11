@@ -26,12 +26,11 @@ body {
     text-decoration: underline;
 }
 
-/* ... (rest of your CSS file) */
 
 main {
     padding: 20px;
 }
-/* ...other parts of your CSS file */
+
 
 .experience {
     display: flex;
@@ -52,3 +51,4 @@ main {
     margin-left: 20px;
     border-radius: 10px;
 }
+
