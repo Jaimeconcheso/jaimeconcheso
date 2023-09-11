@@ -14,13 +14,13 @@ body {
 }
 
 .code-column {
-    font-size: 14px;
+    font-size: 1rem; /* using rem for scalable unit */
     opacity: 0.8;
     animation: flow 5s infinite linear;
     white-space: nowrap;
     position: absolute;
     top: 0;
-    width: 16px;
+    width: 1rem; /* using rem for scalable unit */
 }
 
 @keyframes flow {
@@ -46,17 +46,20 @@ h1 {
     font-size: 2.5em;
     margin-bottom: 20px;
     white-space: nowrap;
-    display: none;
+    position: fixed; /* Fixed position */
+    top: 50%; /* Centered vertically */
+    left: 50%; /* Centered horizontally */
+    transform: translate(-50%, -50%); /* Adjust for exact centering */
+    display: inline-block; /* Changed from display none to inline-block */
 }
 
 h1 span {
-    opacity: 0;
-    transform: translateY(-100px);
-    display: inline-block;
+    opacity: 1; /* Changed opacity to make it visible */
+    transform: translateY(0); /* Reset the transform property */
 }
 
 .btn {
-    display: none;
+    display: inline-block; /* Changed from display none to inline-block */
     padding: 10px 20px;
     color: limegreen;
     background-color: black;
@@ -64,6 +67,10 @@ h1 span {
     border: 2px solid limegreen;
     border-radius: 5px;
     font-size: 1.5em;
+    position: fixed; /* Fixed position */
+    bottom: 20px; /* Positioned it at the bottom */
+    left: 50%; /* Centered horizontally */
+    transform: translateX(-50%); /* Adjust for exact centering */
 }
 
 /* Responsive styling for mobile devices */
@@ -84,7 +91,8 @@ h1 span {
     }
 
     .code-column {
-        font-size: 12px;
-        width: 12px;
+        font-size: 0.75rem; /* using rem for scalable unit */
+        width: 0.75rem; /* using rem for scalable unit */
     }
 }
+
