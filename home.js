@@ -17,12 +17,12 @@ const typingEffect = (elementId, speed) => {
 
 window.onload = () => {
   typingEffect('experience1', 25); // Adjust the speed as necessary
-  typingEffect('experience2', 50);
-  typingEffect('experience3', 50);
-  typingEffect('experience4', 50);
-  typingEffect('experience5', 50);
-  typingEffect('experience6', 50);
-  typingEffect('experience7', 50);
-  typingEffect('experience8', 50);
+  typingEffect('experience2', 25);
+  typingEffect('experience3', 25);
+  typingEffect('experience4', 25);
+  typingEffect('experience5', 25);
+  typingEffect('experience6', 25);
+  typingEffect('experience7', 25);
+  typingEffect('experience8', 25);
    // Adjust the speed as necessary
 };
